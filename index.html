@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+    <title>Miner Tracker Project</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/fav.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flex.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <body>
+        <!-- Navigation -->
+        <header id="navigationBar" class="container-fluid-sm flex-direction-auto text-white bg-flat-black">
+            <div id="header-logo" class="header-logo">
+                <a href="index.html" title="Home page"><img src="images/logo-web.png" height="48"></a>
+            </div>
+            <nav id="navigationList" class="flex-self-center padding-col-md text-center">
+                <ul>
+                    <li class="navbar-ul"><a class="text-simple active" href="index.html" title="Home">HOME</a></li>
+                    <li class="navbar-ul"><a class="text-simple text-white" href="#newsSection" title="News">NEWS</a></li>
+                    <li class="navbar-ul"><a class="text-simple text-white" href="#featureSection" title="Feature">FEATURE</a></li>
+                    <li class="navbar-ul"><a class="text-simple text-white" href="#priceSection" title="Price">PRICE</a></li>
+                    <li class="navbar-ul"><a class="text-simple text-white" href="#aboutUsSection" title="About">ABOUT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Main content -->
+        <main>
+            <!-- Header -->
+            <section id="headerSection" class="container-fluid-lg text-center text-white img-cover" style="background-image:url(images/bg.jpg)">
+                <h1 id="headerSection-header" class="margin-bottom"> MONITER YOUR MINER <br> EVERYTIME, EVERYWHERE </h1>
+                <h3 id="headerSection-description" class="width-half align-center-row text-justify-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu blandit ligula, ac tempor erat. Aliquam turpis enim, blandit ut posuere sit amet, commodo vel lectus. 
+                    Quisque at ligula quis lacus congue ultricies non sit amet nisl. Ut vitae nibh augue. Phasellus sagittis risus posuere, vestibulum nisi eget, commodo ante. 
+                    Nulla tempor, magna at pretium efficitur, tortor arcu lobortis tellus, vitae feugiat dolor quam nec odio. Praesent scelerisque ornare eros, interdum mollis dui fermentum eget. 
+                </h3>
+                <div id="headerSection-body" class="width-half align-center-all flex-direction-auto flex-main-evenly padding-md ">
+                    <a id="button-more" href="#featureSection" class="btn btn-rounded btn-lg bg-transparent bg-transparent-hover  text-white text-simple text-bold">SEE MORE</a>
+                    <a id="button-try" href="#newsSection" class="btn btn-rounded btn-lg bg-red hover-light text-white border-red text-simple text-bold">TRY NOW!</a>
+                </div>
+            </section>
+
+            <!-- News -->
+            <section id="newsSection" class="container-fluid bg-white text-center text-black">
+                <h1 id="newsSection-header" > <i class="fa fa-download text-green"></i> NEW VERSION ARRIVED! </h1>
+                <h3 id="newsSection-description" class="width-half align-center-row text-justify-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu blandit ligula, ac tempor erat. Aliquam turpis enim, blandit ut posuere sit amet, commodo vel lectus. 
+                    Quisque at ligula quis lacus congue ultricies non sit amet nisl. Ut vitae nibh augue. Phasellus sagittis risus posuere, vestibulum nisi eget, commodo ante. 
+                    Nulla tempor, magna at pretium efficitur, tortor arcu lobortis tellus, vitae feugiat dolor quam nec odio. Praesent scelerisque ornare eros, interdum mollis dui fermentum eget. 
+                </h3>
+                <div id="newsSection-line" class="line line-md line-blue align-center-horizontal"></div>
+
+                <div id="newsSection-body" class="width-half align-center-all flex-direction-auto flex-main-center padding-md ">
+                    <a id="button-google" href="#"><img class="btn-app-store" src="images/google-play-badge.png"></a>
+                    <a id="button-appstore" href="#"><img class="btn-app-store" src="images/App_Store.png"></a>
+                </div>
+            </section>
+
+            <!--Feature-->
+            <section id="featureSection" class="container-fluid padding-row-lg bg-flat-black text-center text-white">
+                <h1 id="featureSection-header" class="header text-center"> <i class="fa fa-heart text-red"></i> WHY CHOOSE MINER TRACKER? </h1>
+                <h3 id="featureSection-description" class="width-half align-center-row text-justify-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu blandit ligula, ac tempor erat. Aliquam turpis enim, blandit ut posuere sit amet, commodo vel lectus. 
+                    Quisque at ligula quis lacus congue ultricies non sit amet nisl. Ut vitae nibh augue. Phasellus sagittis risus posuere, vestibulum nisi eget, commodo ante. 
+                </h3>
+                <div id="featureSection-line" class="line line-md line-blue align-center-horizontal"></div>
+
+                <div id="featureSection-body" class="flex-direction-auto-medium flex-main-between container-fluid-sm">
+                    <div id="featureSection-body-image" class="container-fluid-reserve-sm margin-row flex-col-2 align-center img-block">
+                        <img class="width-full" src="images/mockup.png">
+                    </div> 
+                    <div id="featureSection-body-list" class="flex-direction-reserve-auto-medium flex-col-1 text-left">
+                        <div id="item-monitor" class="container-sm">
+                            <h3 id="monitor-title" class="text-bold"><div class="line line-bullet line-blue line-start"></div> <i class="fa fa-line-chart"></i> MONITOR 24/7</h3>
+                            <div class="margin-bottom text-justify">
+                                <p id="monitor-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu blandit ligula, ac tempor erat. Aliquam turpis enim, blandit ut posuere sit amet, commodo vel lectus. 
+                                </p>
+                            </div>
+                        </div>
+                        <div id="item-info" class="container-sm">
+                            <h3 id="info-title" class="text-bold"><div class="line line-bullet line-blue line-start"></div>  <i class="fa fa-thermometer"></i> ALL INFO IS COLLECTED</h3>
+                            <div class="margin-bottom text-justify">
+                                <p id="info-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu blandit ligula, ac tempor erat. Aliquam turpis enim, blandit ut posuere sit amet, commodo vel lectus. 
+                                </p>
+                            </div>
+                        </div>
+                        <div id="item-cloud" class="container-sm">
+                            <h3 id="cloud-title" class="text-bold"><div class="line line-bullet line-blue line-start"></div>  <i class="fa fa-cloud"></i> POWERED BY CLOUD</h3>
+                            <div class="margin-bottom text-justify">
+                                <p id="cloud-description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu blandit ligula, ac tempor erat. Aliquam turpis enim, blandit ut posuere sit amet, commodo vel lectus. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Price -->
+            <section id="priceSection" class="container-fluid text-center">
+                <h1 id="priceSection-header"> <i class="fa fa-usd text-yellow "></i> PRICING </h1>
+                <h2 id="priceSection-description">
+                    Choose a pricing plan that fits your needs.
+                </h2>
+                <div id="priceSection-line" class="line line-md line-blue align-center-horizontal"></div>
+
+                <div id="priceSection-body" class="container-fluid-sm flex-main-around flex-direction-auto-medium">
+                    <div class="flex-direction-auto flex-col-1">
+                        <!-- First card -->
+                        <div id="card-free" class="flex-col bg-white flex-col-1 text-center margin-sm shadow-hover border border-light-gray">
+                            <div class="text-white bg-flat-black border-bottom border-light-gray">
+                                <h1 id="free-title">FREE</h1>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="free-computer"> <span class="text-bold">1</span> PCs </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="free-account"> <span class="text-bold">1</span> Account </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="free-info"> <span class="text-bold">Basic</span> Information </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="free-support"> <span class="text-bold">Working hours</span> Support </h3>
+                            </div>
+                            <div class="container-fluid-sm border-bottom border-light-gray">
+                                <h1 id="free-price">$ 0</span></h1><p>per month</p>
+                            </div>  
+                            <div class="container-sm">
+                                <button id="button-signup-free" class="btn btn-sm btn-rounded bg-flat-black text-white border-flat-black hover-light">
+                                    <h3 class="text-bold"><i class="fa fa-check"></i> Sign Up </h3>
+                                </button>
+                            </div>
+                        </div>
+
+                          <!-- Second card -->
+                          <div id="card-basic" class="flex-col bg-white flex-col-1 text-center margin-sm shadow-hover border border-light-gray">
+                            <div class="text-white bg-blue border-bottom border-light-gray">
+                                <h1 id="basic-title">BASIC</h1>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="basic-computer"> <span class="text-bold">10</span> PCs </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="basic-account"> <span class="text-bold">1</span> Account </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="basic-info"> <span class="text-bold">Basic</span> Information </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="basic-support"> <span class="text-bold">Working hours</span> Support </h3>
+                            </div>
+                            <div class="container-fluid-sm border-bottom border-light-gray">
+                                <h1 id="basic-price">$ 10</span></h1><p>per month</p>
+                            </div>  
+                            <div class="container-sm">
+                                <button id="button-signup-basic" class="btn btn-sm btn-rounded bg-blue text-white border-blue hover-light">
+                                    <h3 class="text-bold"><i class="fa fa-check"></i> Sign Up </h3>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex-direction-auto flex-col-1">
+                        <!-- Third card -->
+                        <div id="card-pro" class="flex-col bg-white flex-col-1 text-center  shadow-hover border border-light-gray">
+                            <div class="text-white bg-red border-bottom border-light-gray">
+                                <h1 id="pro-title">PRO</h1>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="pro-computer"> <span class="text-bold">25</span> PCs </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="pro-account"> <span class="text-bold">5</span> Accounts </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="pro-info"> <span class="text-bold">Detail</span> Information </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                    <h3 id="pro-support"> <span class="text-bold">24/7</span> Support </h3>
+                            </div>
+                            <div class="container-fluid-sm border-bottom border-light-gray">
+                                <h1 id="pro-price">$ 25</span></h1><p>per month</p>
+                            </div>  
+                            <div class="container-sm">
+                                <button id="button-signup-pro" class="btn btn-sm btn-rounded bg-red text-white border-red hover-light">
+                                    <h3 class="text-bold"><i class="fa fa-check"></i> Sign Up </h3>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!--Fourth card -->
+                        <div id="card-premium" class="flex-col bg-white flex-col-1 text-center margin-sm shadow-hover border border-light-gray">
+                            <div class="text-white bg-yellow border-bottom border-light-gray">
+                                <h1 id="premium-title">PREMIUM</h1>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="premium-computer"> <span class="text-bold">100</span> PCs </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="premium-account"> <span class="text-bold">10</span> Accounts </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="premium-info"> <span class="text-bold">Detail</span> Information </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="premium-support"> <span class="text-bold">24/7</span> Support </h3>
+                            </div>
+                            <div class="container-fluid-sm border-bottom border-light-gray">
+                                <h1 id="premium-price">$ 75</span></h1><p>per month</p>
+                            </div>  
+                            <div class="container-sm">
+                                <button id="button-signup-premium" class="btn btn-sm btn-rounded bg-yellow text-white border-yellow hover-light">
+                                    <h3 class="text-bold"><i class="fa fa-check"></i> Sign Up </h3>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- About -->
+            <section id="aboutUsSection" class="container-fluid bg-white text-center text-black bg-light-gray">
+                <h1 id="aboutUsSection-header"> <i class="fa fa-users text-pink"></i> MEET OUR TEAM </h1>
+                <h3 id="aboutUsSection-description"> We are ArounDev Team </h3>
+                <div id="aboutUsSection-line" class="line line-md line-blue align-center-horizontal"></div>
+
+                <div id="aboutUsSection-body" class="container-fluid-sm flex-main-around flex-direction-auto-medium">
+                    <div class="flex-direction-auto flex-col-1">
+                        <!-- First card -->
+                        <div id="people-thanh" class="flex-col flex-col-1 text-center margin-sm">
+                            <img id="thanh-avatar" class="container-fluid-sm width-half align-center-row img-rounded" src="images/img_avatar.png">
+                            <h3 id="thanh-name" class="text-bold">Thanh Hoang Le Hai</h3>
+                            <h3 id="thanh-role" class="margin-none">Windows Developer</span></h3>
+                            <p id="thanh-technology" class="margin-none">.NET (WPF, Windows Service)</span></p>
+                        </div>
+
+                        <!-- Second card -->
+                        <div id="people-kha" class="flex-col flex-col-1 text-center margin-sm">
+                            <img id="kha-avatar" class="container-fluid-sm width-half align-center-row img-rounded" src="images/img_avatar.png">
+                            <h3 id="kha-name" class="text-bold">Kha Tran Dinh Nguyen</h3>
+                            <h3 id="kha-role" class="margin-none">Mobile Developer</span></h3>
+                            <p id="kha-technology" class="margin-none">React Native</span></p>
+                        </div>
+                    </div>
+                
+                    <div class="flex-direction-auto flex-col-1">
+                        <!-- Third card -->
+                        <div id="people-nghia" class="flex-col flex-col-1 text-center margin-sm">
+                            <img id="nghia-avatar" class="container-fluid-sm width-half align-center-row img-rounded" src="images/img_avatar.png">
+                            <h3 id="nghia-name" class="text-bold">Nghia Nguyen Huu</h3>
+                            <h3 id="nghia-role" class="margin-none">Backend Developer</span></h3>
+                            <p id="nghia-technology" class="margin-none">Node.js Cloud Database</span></p>
+                        </div>
+
+                    <!--Fourth card -->
+                        <div id="people-trang" class="flex-col flex-col-1 text-center margin-sm">
+                            <img id="trang-avatar" class="container-fluid-sm width-half align-center-row img-rounded" src="images/img_avatar2.png">
+                            <h3 id="trang-name" class="text-bold">Trang Nguyen Thi Thu</h3>
+                            <h3 id="trang-role" class="margin-none">Bussiness Analyst </span></h3>
+                            <p id="trang-technology" class="margin-none">Project Supervisor</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- Footer -->
+        <footer class="container-fluid-sm bg-flat-black text-white">
+            <div class="container-fluid-reserve flex-direction-auto-medium">
+                <!-- About us -->
+                <section id="aboutSection" class="flex-col-1 margin-md">
+                    <div id="project" class="container-fluid-sm">
+                        <h2 id="project-title" class="margin-none">About Miner Tracker</h2>
+                        <div id="project-line" class="line line-smd line-blue margin-none"></div>
+                        <div id="project-body">
+                            <p id="project-description" class="text-justify-left">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu blandit ligula, ac tempor erat. Aliquam turpis enim, blandit ut posuere sit amet, commodo vel lectus. 
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div id="legacy" class="container-fluid-sm">
+                        <h2 id="legacy-title" class="margin-none">Legacy</h2>
+                        <div id="legacy-line" class="line line-smd line-blue margin-none text-left"></div>
+                        <div id="legacy-body">
+                            <a id="legacy-detail-notice" class="text-white" href="#" title="Legal Notice"><p>Legal Notice</p></a>
+                            <a id="legacy-detail-term" class="text-white" href="#" title="Terms & Conditions"><p>Terms & Conditions</p></a>
+                        </div>
+                    </div>  
+                </section>
+
+                <!-- Contact -->
+                <section id="contactSection" class="flex-col-1 container-fluid-sm margin-md">
+                    <h2 id="contactSection-title" class="margin-none">Contact</h2>
+                    <div id="contactSection-line" class="line line-smd line-blue margin-none"></div>
+                    <div id="contactSection-body">
+                        <h3 id="contact-address"><i class="fa fa-home margin-bottom"></i> <span class="text-bold"> Address:</span> District 10, Ho Chi Minh city</h3>
+                        <h3 id="contact-phone"><i class="fa fa-phone margin-bottom"></i> <span class="text-bold"> Phone:</span> (+84) O934.444.555</h3>
+                        <h3 id="contact-email"><i class="fa fa-envelope"></i> <span class="text-bold"> Email:</span> contact@minertracker.com</h3>
+                    </div>
+                </section>
+                
+                <!-- Email -->
+                <section id="emailSection" class="flex-col-2 container-fluid-sm margin-md">
+                    <h2 id="emailSection-title" class="margin-none">Send Us A Message</h2>
+                    <div id="emailSection-line" class="line line-smd line-blue margin-none"></div>
+                    <p id="emailSection-description">Let's get in touch. Send us a message:</p>
+
+                    <div id="emailSection-body">
+                        <input id="email-name" class="input bg-transparent text-white border border-light-gray" type="text" placeholder="Name">
+                        <input id="email-address" class="input bg-transparent text-white border border-light-gray" placeholder="Email">
+                        <input id="email-subject" class="input bg-transparent text-white border border-light-gray" placeholder="Subject">
+                        <input id="email-message" class="input bg-transparent text-white border border-light-gray" placeholder="Message">
+                        <button id="button-email" class="btn btn-sm btn-rounded bg-blue text-white border-blue hover-light margin-col">
+                            <h3 class="text-bold"><i class="fa fa-send"></i> Send </h3>
+                        </button>
+                    </div>
+                </section>
+            </div>
+            <p id="copyright-text" class="text-center">Copyright 2018 ArounDev Team. All Rights Reserved</p>
+        </footer>
+            <!-- Scroll to top button -->
+            <div id="scrollButton" class="btn-scroll text-white margin-sm padding-sm">
+                <h1 id="scrollIcon" class="text-scroll"><i class="fa fa-angle-up"></i></h1>
+            </div>
+        <script>
+            //On windows scroll event
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("navigationBar");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                $("#scrollButton").fadeIn();
+                header.classList.add("navbar-sticky");
+                } else {
+                $("#scrollButton").fadeOut();
+                header.classList.remove("navbar-sticky");
+                }
+            }
+            
+            //To top scrolling
+            $("#scrollButton").on('click', function(event) {
+                $('html, body').animate({ scrollTop: $("#headerSection").offset().top}, 800);
+            });
+        </script>
+    </body>
+</html>
