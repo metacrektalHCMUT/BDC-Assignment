@@ -140,6 +140,9 @@ img {
     font-weight: bold;
 }
 
+.text-wider-spacing{
+    line-height: 1.6;
+}
 
 
 /*Image*/
@@ -210,6 +213,13 @@ img {
 
 .input-half {
     width: 50%;
+}
+
+/*List*/
+.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
 }
 
 /*----------------------------------*/
