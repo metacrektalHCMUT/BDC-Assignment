@@ -19,60 +19,47 @@
             </div>
             <nav id="navigationList" class="flex-self-center padding-col-md text-center">
                 <ul>
-                    <li class="navbar-ul"><a class="text-simple active" href="index.html" title="Home">HOME</a></li>
-                    <li class="navbar-ul"><a class="text-simple text-white" href="#newsSection" title="News">NEWS</a></li>
-                    <li class="navbar-ul"><a class="text-simple text-white" href="#featureSection" title="Feature">FEATURE</a></li>
-                    <li class="navbar-ul"><a class="text-simple text-white" href="#priceSection" title="Price">PRICE</a></li>
+                    <li class="navbar-ul"><a class="text-simple active" href="#introSection" title="Intro">INTRODUCTION</a></li>
+                    <li class="navbar-ul"><a class="text-simple text-white" href="#purposeSection" title="Purpose">PURPOSE</a></li>
+                    <li class="navbar-ul"><a class="text-simple text-white" href="#refSection" title="Reference">REFERENCE</a></li>
+                    <li class="navbar-ul"><a class="text-simple text-white" href="#trainingModel" title="Model">MODEL</a></li>
                     <li class="navbar-ul"><a class="text-simple text-white" href="#aboutUsSection" title="About">ABOUT</a></li>
                 </ul>
             </nav>
         </header>
         <!-- Main content -->
         <main>
-            <!-- Header -->
-            <section id="headerSection" class="container-fluid-lg text-center text-white img-cover" style="background-image:url(images/bg.jpg)">
-                <h1 id="headerSection-header" class="margin-bottom"> MONITER YOUR MINER <br> EVERYTIME, EVERYWHERE </h1>
-                <h3 id="headerSection-description" class="width-half align-center-row text-justify-center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu blandit ligula, ac tempor erat. Aliquam turpis enim, blandit ut posuere sit amet, commodo vel lectus. 
-                    Quisque at ligula quis lacus congue ultricies non sit amet nisl. Ut vitae nibh augue. Phasellus sagittis risus posuere, vestibulum nisi eget, commodo ante. 
-                    Nulla tempor, magna at pretium efficitur, tortor arcu lobortis tellus, vitae feugiat dolor quam nec odio. Praesent scelerisque ornare eros, interdum mollis dui fermentum eget. 
+            <!-- Intro -->
+            <section id="introSection" class="container-fluid-lg text-center text-white img-cover" style="background-image:url(images/bg.jpg)">
+                <h1 id="introSection-header" class="margin-bottom"> 
+                    <span id="introSection-header-title" style="font-size: 3em; border: 3px solid #ffffff; border-width: 3px 0px 3px 0px;">SENTIMENT ANALYSIS</span> <br> <br>
+                    <span id="introSection-header-subtitle" style="font-size: 0.9em; color: #f1c40f; height: 1em">PHÂN TÍCH CẢM XÚC TỪ CÁC COMMENT TRÊN FACEBOOK VÀ YOUTUBE</span> 
+                </h1>
+                <h3 id="introSection-description" class="width-half align-center-row text-justify-center">
+                    Hiện nay, các mạng xã hội như Facebook, Youtube, Instagram,. . . . rất thông dụng với người dùng Việt Nam. 
+                    Không chỉ đơn thuần được sử dụng để chia sẻ các khoảnh khắc trong cuộc sống hằng ngày, mạng xã hội còn trở thành các công cụ cho mục đích kinh tế của nhiều cá nhân, tổ chức. 
+                    Trong số các hoạt động chính trên mạng xã hội, bình luận (comment) chính là một trong những nguồn dữ liệu quan trọng và có tính ứng dụng cao, đem lại dữ liệu, thông tin cần thiết và quan trọng cho chủ bài viết. 
                 </h3>
-                <div id="headerSection-body" class="width-half align-center-all flex-direction-auto flex-main-evenly padding-md ">
-                    <a id="button-more" href="#featureSection" class="btn btn-rounded btn-lg bg-transparent bg-transparent-hover  text-white text-simple text-bold">SEE MORE</a>
-                    <a id="button-try" href="#newsSection" class="btn btn-rounded btn-lg bg-red hover-light text-white border-red text-simple text-bold">TRY NOW!</a>
+                <div id="introSection-body" class="width-half align-center-all flex-direction-auto flex-main-evenly padding-md ">
+                    <a id="button-more" href="#purposeSection" class="btn btn-rounded btn-lg bg-transparent bg-transparent-hover  text-white text-simple text-bold">ĐỌC TIẾP</a>
+                    <a id="button-try" href="#trainingModel" class="btn btn-rounded btn-lg bg-red hover-light text-white border-red text-simple text-bold">MODEL</a>
                 </div>
             </section>
 
-            <!-- News -->
-            <section id="newsSection" class="container-fluid bg-white text-center text-black">
-                <h1 id="newsSection-header" > <i class="fa fa-download text-green"></i> NEW VERSION ARRIVED! </h1>
-                <h3 id="newsSection-description" class="width-half align-center-row text-justify-center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu blandit ligula, ac tempor erat. Aliquam turpis enim, blandit ut posuere sit amet, commodo vel lectus. 
-                    Quisque at ligula quis lacus congue ultricies non sit amet nisl. Ut vitae nibh augue. Phasellus sagittis risus posuere, vestibulum nisi eget, commodo ante. 
-                    Nulla tempor, magna at pretium efficitur, tortor arcu lobortis tellus, vitae feugiat dolor quam nec odio. Praesent scelerisque ornare eros, interdum mollis dui fermentum eget. 
-                </h3>
-                <div id="newsSection-line" class="line line-md line-blue align-center-horizontal"></div>
-
-                <div id="newsSection-body" class="width-half align-center-all flex-direction-auto flex-main-center padding-md ">
-                    <a id="button-google" href="#"><img class="btn-app-store" src="images/google-play-badge.png"></a>
-                    <a id="button-appstore" href="#"><img class="btn-app-store" src="images/App_Store.png"></a>
-                </div>
-            </section>
-
-            <!--Feature-->
-            <section id="featureSection" class="container-fluid padding-row-lg bg-flat-black text-center text-white">
-                <h1 id="featureSection-header" class="header text-center"> <i class="fa fa-heart text-red"></i> WHY CHOOSE MINER TRACKER? </h1>
-                <h3 id="featureSection-description" class="width-half align-center-row text-justify-center">
+            <!--Purpose-->
+            <section id="purposeSection" class="container-fluid padding-row-lg bg-white text-center">
+                <h1 id="purposeSection-header" class="header text-center"> <i class="fa fa-heart text-red"></i> WHY CHOOSE MINER TRACKER? </h1>
+                <h3 id="purposeSection-description" class="width-half align-center-row text-justify-center">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu blandit ligula, ac tempor erat. Aliquam turpis enim, blandit ut posuere sit amet, commodo vel lectus. 
                     Quisque at ligula quis lacus congue ultricies non sit amet nisl. Ut vitae nibh augue. Phasellus sagittis risus posuere, vestibulum nisi eget, commodo ante. 
                 </h3>
-                <div id="featureSection-line" class="line line-md line-blue align-center-horizontal"></div>
+                <div id="purposeSection-line" class="line line-md line-blue align-center-horizontal"></div>
 
-                <div id="featureSection-body" class="flex-direction-auto-medium flex-main-between container-fluid-sm">
-                    <div id="featureSection-body-image" class="container-fluid-reserve-sm margin-row flex-col-2 align-center img-block">
+                <div id="purposeSection-body" class="flex-direction-auto-medium flex-main-between container-fluid-sm">
+                    <div id="purposeSection-body-image" class="container-fluid-reserve-sm margin-row flex-col-2 align-center img-block">
                         <img class="width-full" src="images/mockup.png">
                     </div> 
-                    <div id="featureSection-body-list" class="flex-direction-reserve-auto-medium flex-col-1 text-left">
+                    <div id="purposeSection-body-list" class="flex-direction-reserve-auto-medium flex-col-1 text-left">
                         <div id="item-monitor" class="container-sm">
                             <h3 id="monitor-title" class="text-bold"><div class="line line-bullet line-blue line-start"></div> <i class="fa fa-line-chart"></i> MONITOR 24/7</h3>
                             <div class="margin-bottom text-justify">
@@ -101,34 +88,34 @@
                 </div>
             </section>
 
-            <!-- Price -->
-            <section id="priceSection" class="container-fluid text-center">
-                <h1 id="priceSection-header"> <i class="fa fa-usd text-yellow "></i> PRICING </h1>
-                <h2 id="priceSection-description">
-                    Choose a pricing plan that fits your needs.
+            <!-- Reference -->
+            <section id="refSection" class="container-fluid text-center bg-flat-black text-white">
+                <h1 id="refSection-header"> REFERENCE </h1>
+                <h2 id="refSection-description">
+                    Một số nghiên cứu hay hướng dẫn liên quan mà nhóm tham khảo trong quá trình tìm hiểu
                 </h2>
-                <div id="priceSection-line" class="line line-md line-blue align-center-horizontal"></div>
+                <div id="refSection-line" class="line line-md line-blue align-center-horizontal"></div>
 
-                <div id="priceSection-body" class="container-fluid-sm flex-main-around flex-direction-auto-medium">
+                <div id="refSection-body" class="container-fluid-sm flex-main-around flex-direction-auto-medium">
                     <div class="flex-direction-auto flex-col-1">
                         <!-- First card -->
                         <div id="card-free" class="flex-col bg-white flex-col-1 text-center margin-sm shadow-hover border border-light-gray">
-                            <div class="text-white bg-flat-black border-bottom border-light-gray">
+                            <div class="bg-flat-black border-bottom border-light-gray">
                                 <h1 id="free-title">FREE</h1>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="free-computer"> <span class="text-bold">1</span> PCs </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="free-account"> <span class="text-bold">1</span> Account </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="free-info"> <span class="text-bold">Basic</span> Information </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="free-support"> <span class="text-bold">Working hours</span> Support </h3>
                             </div>
-                            <div class="container-fluid-sm border-bottom border-light-gray">
+                            <div class="container-fluid-sm border-bottom border-light-gray text-black">
                                 <h1 id="free-price">$ 0</span></h1><p>per month</p>
                             </div>  
                             <div class="container-sm">
@@ -143,19 +130,19 @@
                             <div class="text-white bg-blue border-bottom border-light-gray">
                                 <h1 id="basic-title">BASIC</h1>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="basic-computer"> <span class="text-bold">10</span> PCs </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="basic-account"> <span class="text-bold">1</span> Account </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="basic-info"> <span class="text-bold">Basic</span> Information </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="basic-support"> <span class="text-bold">Working hours</span> Support </h3>
                             </div>
-                            <div class="container-fluid-sm border-bottom border-light-gray">
+                            <div class="container-fluid-sm border-bottom border-light-gray text-black">
                                 <h1 id="basic-price">$ 10</span></h1><p>per month</p>
                             </div>  
                             <div class="container-sm">
@@ -168,23 +155,23 @@
                     
                     <div class="flex-direction-auto flex-col-1">
                         <!-- Third card -->
-                        <div id="card-pro" class="flex-col bg-white flex-col-1 text-center  shadow-hover border border-light-gray">
+                        <div id="card-pro" class="flex-col bg-white flex-col-1 text-center margin-sm shadow-hover border border-light-gray">
                             <div class="text-white bg-red border-bottom border-light-gray">
                                 <h1 id="pro-title">PRO</h1>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="pro-computer"> <span class="text-bold">25</span> PCs </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="pro-account"> <span class="text-bold">5</span> Accounts </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="pro-info"> <span class="text-bold">Detail</span> Information </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                     <h3 id="pro-support"> <span class="text-bold">24/7</span> Support </h3>
                             </div>
-                            <div class="container-fluid-sm border-bottom border-light-gray">
+                            <div class="container-fluid-sm border-bottom border-light-gray text-black">
                                 <h1 id="pro-price">$ 25</span></h1><p>per month</p>
                             </div>  
                             <div class="container-sm">
@@ -199,19 +186,19 @@
                             <div class="text-white bg-yellow border-bottom border-light-gray">
                                 <h1 id="premium-title">PREMIUM</h1>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="premium-computer"> <span class="text-bold">100</span> PCs </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="premium-account"> <span class="text-bold">10</span> Accounts </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="premium-info"> <span class="text-bold">Detail</span> Information </h3>
                             </div>
-                            <div class="border-bottom border-light-gray">
+                            <div class="border-bottom border-light-gray text-black">
                                 <h3 id="premium-support"> <span class="text-bold">24/7</span> Support </h3>
                             </div>
-                            <div class="container-fluid-sm border-bottom border-light-gray">
+                            <div class="container-fluid-sm border-bottom border-light-gray text-black">
                                 <h1 id="premium-price">$ 75</span></h1><p>per month</p>
                             </div>  
                             <div class="container-sm">
@@ -224,7 +211,21 @@
                 </div>
             </section>
 
+            <!-- Model -->
+            <section id="trainingModel" class="container-fluid bg-white text-center text-black">
+                <h1 id="trainingModel-header" > <i class="fa fa-download text-green"></i> TRAINING MODEL IS COMING SOON! </h1>
+                <h3 id="trainingModel-description" class="width-half align-center-row text-justify-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu blandit ligula, ac tempor erat. Aliquam turpis enim, blandit ut posuere sit amet, commodo vel lectus. 
+                    Quisque at ligula quis lacus congue ultricies non sit amet nisl. Ut vitae nibh augue. Phasellus sagittis risus posuere, vestibulum nisi eget, commodo ante. 
+                    Nulla tempor, magna at pretium efficitur, tortor arcu lobortis tellus, vitae feugiat dolor quam nec odio. Praesent scelerisque ornare eros, interdum mollis dui fermentum eget. 
+                </h3>
+                <div id="trainingModel-line" class="line line-md line-blue align-center-horizontal"></div>
 
+                <div id="trainingModel-body" class="width-half align-center-all flex-direction-auto flex-main-center padding-md ">
+                    <a id="button-google" href="#"><img class="btn-app-store" src="images/google-play-badge.png"></a>
+                    <a id="button-appstore" href="#"><img class="btn-app-store" src="images/App_Store.png"></a>
+                </div>
+            </section>
 
             <!-- About -->
             <section id="aboutUsSection" class="container-fluid bg-white text-center text-black bg-light-gray">
@@ -347,7 +348,7 @@
             
             //To top scrolling
             $("#scrollButton").on('click', function(event) {
-                $('html, body').animate({ scrollTop: $("#headerSection").offset().top}, 800);
+                $('html, body').animate({ scrollTop: $("#introSection").offset().top}, 800);
             });
         </script>
     </body>
