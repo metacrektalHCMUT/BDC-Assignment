@@ -144,6 +144,10 @@ img {
     line-height: 1.6;
 }
 
+.text-UPPERCASE{
+    text-transform: uppercase;
+}
+
 
 /*Image*/
 .img-auto {
