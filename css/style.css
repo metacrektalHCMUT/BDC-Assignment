@@ -344,14 +344,14 @@ img {
 }
 
 
-/* button app store */
-.btn-app-store{
+/* button link to model */
+.btn-model{
     display: inline-block;
     width: 13em;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
-.btn-app-store:hover {
+.btn-model:hover {
     opacity: 1;
 }
 
